@@ -1,0 +1,33 @@
+{
+    "name": "working_environment",
+    "version": "1.0.0",
+    "description": "This branch holds code for basic setup with specific technologies.",
+    "main": "index.js",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/phquang98/working_environment.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/phquang98/working_environment/issues"
+    },
+    "homepage": "https://github.com/phquang98/working_environment#readme",
+    "devDependencies": {
+        "eslint": "^6.1.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-config-node": "^4.0.0",
+        "eslint-config-prettier": "^6.4.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-node": "^10.0.0",
+        "eslint-plugin-prettier": "^3.1.1",
+        "prettier": "^1.18.2"
+    },
+    "dependencies": {
+        "node-sass": "^4.12.0"
+    }
+}
