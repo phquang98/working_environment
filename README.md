@@ -42,17 +42,3 @@ _Important environment setup files:_
 ## Note
 
 If your README.md file got editted by Prettier, paste this line above the part you dont want Prettier: `<!-- prettier-ignore -->`
-
-This repo is aimed towards users on Windows 10 machine, using VSCode as an IDE and majoring in Web Development.
-To check for rules, go to these websites:
-
-- ESLint: <>
-
-
-node-sass use to compile css to scss, cause no one write pure css anymore
-
-
-each time write scss, run `npm run sass`
-
-all css are written in main only -> 5 pages share codes inside there
-body ele will have main tag with 5 rule set for each 5 pages, seperated by comments
